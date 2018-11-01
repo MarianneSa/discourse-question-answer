@@ -18,16 +18,19 @@
   float: left;
 
   .btn {
-    background: white;
-
+    background: transparent;
+    color: #0088cc;
+    font-size: 22px;
+    
     &:hover {
-      background: dark-light-diff($primary, $secondary, 65%, -75%);
-      color: $secondary;
+      background: transparent;
+      color: #185390;
     }
   }
 
   .count {
     text-align: center;
+    color: #0088cc;
   }
 }
 
