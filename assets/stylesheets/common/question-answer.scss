@@ -7,6 +7,11 @@
 
   .btn {
     float: left;
+    
+    &:hover {
+      background: #185390;
+      color: white;
+     }
   }
 
   .fa {
